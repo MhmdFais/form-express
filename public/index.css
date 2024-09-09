@@ -1,0 +1,67 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+  
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 2.5rem;
+}
+  
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 20px auto;
+}
+  
+ul li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1.1rem;
+}
+  
+ul li:nth-child(odd) {
+    background-color: #e9f5ff;
+}
+  
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 200px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+  
+a:hover {
+    background-color: #2980b9;
+}
+
+.user-item {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+.user-item div {
+    font-size: 16px;
+    color: #333;
+    padding: 5px 0;
+}
+  
+  
